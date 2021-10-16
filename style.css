@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    position: relative;
+    background-color:#A9A9A9;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+
+}    
+
+#form-reader h1{
+    color: #1C1C1C;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 10px;
+    font-size: 80px;
+    overflow: hidden;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-reader p{
+    color: #1C1C1C;
+    font-weight: 399;
+    font-size: 30px;
+    margin-top: 5px;
+    padding-left: 40px;
+
+}
+
+form input{
+    background-color: #4F4F4F;
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    width: 85%;
+    margin-left: 25px;
+}
+
+form button{
+    background-color: #C0C0C0;
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 25px;
+    padding: 15px;
+    width: 85%;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#valorSorteado{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70px;
+}
+
+button:hover{
+    background-color: white;
+    box-shadow: 0 1px 1px 0px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+}
+
+#listaRedesSociais{
+    position: relative;
+}
+
+footer > ul{
+    margin: 0;
+    transform: none;
+}
+
+ul{
+    position: absolute;
+    list-style-type:none ;
+    font-size: 20px;
+}
+
+li{
+    background-color: #4F4F4F;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#listaRedesSociais a{
+    text-decoration: none;
+    color: white;
+
+}
